@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  chat-app-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - MONGO_URI="mongodb+srv://root:pgVlppGqFCZ4bizJ@cluster0.dgf09.mongodb.net/chat_db"
+      - MAIN_API_URL="http://suokrupet-api-app-1:80/api"
+    command: npm run dev
+    networks:
+      - shared-network
+
+networks:
+  shared-network:
+    external: true

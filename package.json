@@ -1,0 +1,41 @@
+{
+  "name": "nestplus-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "deploy": "scripts/deploy.sh"
+  },
+  "engines": {
+    "node": ">= 20.9 < 21"
+  },
+  "keywords": [
+    "nestplus-boilerplate",
+    "nestplus",
+    "boilerplate",
+    "node",
+    "express",
+    "swagger",
+    "resful"
+  ],
+  "author": "Mr. Neang",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.11.20",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
