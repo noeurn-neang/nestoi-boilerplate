@@ -1,4 +1,4 @@
-import { Request, Response } from 'nestplus';
+import { Request, Response } from 'nestoi';
 import { getUsers as getUsersService } from '../services/user.service';
 import { errorRes, successRes } from '../utils/response';
 

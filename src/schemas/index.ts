@@ -1,4 +1,4 @@
-import { Joi } from 'nestplus';
+import { Joi } from 'nestoi';
 
 /**
  * Note:

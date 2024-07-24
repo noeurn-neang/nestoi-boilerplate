@@ -2,7 +2,7 @@ import jwt, { JwtPayload } from 'jsonwebtoken';
 import { AppConfigs } from '../configs/app';
 import { findUserById } from '../services';
 import { IRequest } from '../types';
-import { NextFunction, Response } from 'nestplus';
+import { NextFunction, Response } from 'nestoi';
 
 export const authenticate = async (
   req: IRequest,

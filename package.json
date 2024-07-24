@@ -26,7 +26,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.2.0"
+    "mongoose": "^8.2.0",
+    "nestoi": "^1.0.6"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "^9.0.5",
@@ -34,8 +35,8 @@
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
     "eslint": "^8.57.0",
-    "nodemon": "^3.1.0",
+    "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.5.3"
   }
 }

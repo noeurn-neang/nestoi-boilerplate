@@ -1,4 +1,4 @@
-import { IRouteTag } from 'nestplus';
+import { IRouteTag } from 'nestoi';
 import { getUsers as getUsersController } from '../../controllers';
 import {
   getUsers as getUsersSchema,

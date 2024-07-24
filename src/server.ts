@@ -2,12 +2,12 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import { AppConfigs } from './configs/app';
-import { nestplus } from 'nestplus';
 import { routeTags } from './routes/v1';
 import * as joiSchemas from './schemas';
+const  {nestoi} = require('nestoi');
 
-nestplus({
-  title: 'Nestplus Boilerplate Restful API',
+nestoi({
+  title: 'nestoi Boilerplate Restful API',
   routeTags: routeTags,
   routePrefix: '/api',
   swagger: {
